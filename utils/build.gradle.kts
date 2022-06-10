@@ -10,8 +10,8 @@ android {
     defaultConfig {
         minSdkVersion(Dependencies.Android.minSdkVersion)
         targetSdkVersion(Dependencies.Android.targetSdkVersion)
-        versionCode = Dependencies.Android.versionCode
-        versionName = Dependencies.Android.versionName
+//        versionCode = Dependencies.Android.versionCode
+//        versionName = Dependencies.Android.versionName
         testInstrumentationRunner = Dependencies.Android.testInstrumentationRunner
 
         buildConfigField("String", "API_MOVIE_TV", "\"5a9914ea9eb3bfc1addfe13b0b92b0b4\"")

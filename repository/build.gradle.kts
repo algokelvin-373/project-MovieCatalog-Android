@@ -10,8 +10,8 @@ android {
     defaultConfig {
         minSdkVersion(Dependencies.Android.minSdkVersion)
         targetSdkVersion(Dependencies.Android.targetSdkVersion)
-        versionCode = Dependencies.Android.versionCode
-        versionName = Dependencies.Android.versionName
+//        versionCode = Dependencies.Android.versionCode
+//        versionName = Dependencies.Android.versionName
         testInstrumentationRunner = Dependencies.Android.testInstrumentationRunner
 
         buildConfigField("String", "URL_MOVIE_TV", "\"https://api.themoviedb.org/\"")

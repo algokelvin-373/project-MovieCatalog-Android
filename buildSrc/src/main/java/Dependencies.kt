@@ -1,7 +1,7 @@
-private const val kotlinVersion = "1.3.61"
-private const val androidGradleVersion = "3.6.3"
+private const val kotlinVersion = "1.5.21"
+private const val androidGradleVersion = "7.0.4"
 
-private const val appcompatVersion = "1.0.2"
+private const val appcompatVersion = "1.2.0"
 private const val coreKtxVersion = "1.0.2"
 private const val constraintLayoutVersion = "1.1.3"
 private const val materialVersion = "1.1.0"
@@ -17,12 +17,12 @@ private const val espressoVersion = "3.2.0"
 
 object Dependencies {
     object Android {
-        const val minSdkVersion = 14
-        const val targetSdkVersion = 28
-        const val compileSdkVersion = 28
+        const val minSdkVersion = 21
+        const val targetSdkVersion = 32
+        const val compileSdkVersion = 32
         const val applicationId = "com.algokelvin.catalog.movie.tv.apps"
-        const val versionCode = 1
-        const val versionName = "0.1.0"
+        const val versionCode = 2
+        const val versionName = "0.5.2"
         const val testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
     object BuildPlugins {

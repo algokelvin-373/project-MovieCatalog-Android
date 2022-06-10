@@ -2,7 +2,7 @@
 gradle/
 .idea
 local.properties
-gradle.properties
+#gradle.properties
 gradlew
 gradlew.bat
 *.iml
