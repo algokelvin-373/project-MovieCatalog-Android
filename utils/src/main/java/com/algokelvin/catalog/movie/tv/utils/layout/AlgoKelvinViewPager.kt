@@ -5,7 +5,11 @@ import android.content.Context
 import android.util.AttributeSet
 import android.view.MotionEvent
 
-class AlgoKelvinViewPager(context: Context, attributeSet: AttributeSet) : androidx.viewpager.widget.ViewPager(context, attributeSet) {
+class AlgoKelvinViewPager(
+    context: Context,
+    attributeSet: AttributeSet
+) : androidx.viewpager.widget.ViewPager(context, attributeSet) {
+
     @SuppressLint("ClickableViewAccessibility")
     override fun onTouchEvent(ev: MotionEvent?): Boolean {
         return false

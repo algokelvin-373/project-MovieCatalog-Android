@@ -7,7 +7,11 @@ import com.algokelvin.catalog.movie.tv.utils.layout.AppsViewPageAdapter
 
 object ConstantVal {
     object Layout {
-        fun tabLayoutMenu(supportFragmentManager: FragmentManager, layoutViewPagerMovie: AlgoKelvinViewPager, vararg fragment: Fragment) {
+        fun tabLayoutMenu(
+            supportFragmentManager: FragmentManager,
+            layoutViewPagerMovie: AlgoKelvinViewPager,
+            vararg fragment: Fragment
+        ) {
             val appsViewPageAdapter = AppsViewPageAdapter(supportFragmentManager)
             appsViewPageAdapter.addAppsPage(fragment)
             layoutViewPagerMovie.adapter = appsViewPageAdapter

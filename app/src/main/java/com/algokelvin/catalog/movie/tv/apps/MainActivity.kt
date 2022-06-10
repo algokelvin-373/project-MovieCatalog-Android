@@ -18,7 +18,11 @@ class MainActivity : AppCompatActivity() {
         tabs_layout_main.addOnTabSelectedListener(object : TabLayout.OnTabSelectedListener {
             override fun onTabReselected(p0: TabLayout.Tab?) { }
             override fun onTabUnselected(p0: TabLayout.Tab?) { }
-            override fun onTabSelected(p0: TabLayout.Tab?) { layoutViewPagerMovie.setCurrentItem(p0?.position!!, true) }
+            override fun onTabSelected(p0: TabLayout.Tab?) {
+                p0?.position?.let { position ->
+                    layoutViewPagerMovie.setCurrentItem(position, true)
+                }
+            }
         })
     }
 }
