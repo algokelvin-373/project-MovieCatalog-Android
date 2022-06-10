@@ -8,7 +8,7 @@ private const val materialVersion = "1.1.0"
 private const val glideVersion = "4.9.0"
 private const val retrofitVersion = "2.6.0"
 private const val retrofitGsonRxJavaVersion = "2.5.0"
-private const val okHttpVersion = "4.0.1"
+private const val okHttpVersion = "4.4.0"
 private const val lifecycleVersion = "2.2.0"
 
 private const val junitVersion = "4.12"
